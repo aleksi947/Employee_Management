@@ -1,0 +1,40 @@
+/* Filter.css */
+.filter {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .filter-search {
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+  }
+  
+  .filter-tabs {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .filter-tab {
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .filter-tab.active {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .filter-tab:hover {
+    background-color: #007bff;
+    color: white;
+  }
+  
