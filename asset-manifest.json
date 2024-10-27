@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Employee_Management.git/static/css/main.49985d7b.css",
-    "main.js": "/Employee_Management.git/static/js/main.511bdc6f.js",
-    "static/js/453.ed3810f9.chunk.js": "/Employee_Management.git/static/js/453.ed3810f9.chunk.js",
-    "index.html": "/Employee_Management.git/index.html",
-    "main.49985d7b.css.map": "/Employee_Management.git/static/css/main.49985d7b.css.map",
-    "main.511bdc6f.js.map": "/Employee_Management.git/static/js/main.511bdc6f.js.map",
-    "453.ed3810f9.chunk.js.map": "/Employee_Management.git/static/js/453.ed3810f9.chunk.js.map"
+    "main.css": "/Employee_Management/static/css/main.49985d7b.css",
+    "main.js": "/Employee_Management/static/js/main.c08191ac.js",
+    "static/js/453.ed3810f9.chunk.js": "/Employee_Management/static/js/453.ed3810f9.chunk.js",
+    "index.html": "/Employee_Management/index.html",
+    "main.49985d7b.css.map": "/Employee_Management/static/css/main.49985d7b.css.map",
+    "main.c08191ac.js.map": "/Employee_Management/static/js/main.c08191ac.js.map",
+    "453.ed3810f9.chunk.js.map": "/Employee_Management/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.49985d7b.css",
-    "static/js/main.511bdc6f.js"
+    "static/js/main.c08191ac.js"
   ]
 }
