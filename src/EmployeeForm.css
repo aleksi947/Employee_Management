@@ -1,8 +1,37 @@
 /* EmployeeForm.css */
 .employee-form {
     display: flex;
-    gap: 10px;
+    gap: 5px;
     margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+    /* max-width: 400px; */ /* Ограничение максимальной ширины для мобильных */
+    /* margin: 0 auto; */
+  }
+
+  @media (max-width: 768px) {
+    .employee-form {
+      padding: 10px; /* Ещё меньше отступы */
+      /* max-width: 200px; */
+      display: flex;
+      justify-content: space-between;
+      gap: 5px;
+    }
+  }
+  @media (max-width: 480px) {
+    .employee-form {
+      padding: 10px; /* Ещё меньше отступы */
+      /* max-width: 200px; */
+      display: flex;
+      justify-content: space-between;
+      gap: 5px;
+    }
+    .employee-input,
+    .employee-button {
+      width: 100%; /* Поля ввода и кнопка заполняют всю ширину формы */
+    }
+  
+    
   }
   
   .employee-input {
@@ -10,6 +39,7 @@
     font-size: 16px;
     border-radius: 5px;
     border: 1px solid #ccc;
+    width: 100%;
   }
   
   .employee-button {
@@ -19,6 +49,7 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    width: 100%;
   }
   
   .employee-button:hover {

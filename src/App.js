@@ -32,17 +32,19 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Employee Management</h1>
+      <div className="Container">
+        <h1>Employee Management</h1>
 
-      {/* Список сотрудников */}
-      <EmployeeList
-        employees={employees} // Передаём сотрудников как пропс
-        onDeleteEmployee={handleDeleteEmployee} // Функция для удаления сотрудника
-        onToggleBonus={toggleBonus} // Функция для переключения бонуса
-      />
+        {/* Список сотрудников */}
+        <EmployeeList
+          employees={employees} // Передаём сотрудников как пропс
+          onDeleteEmployee={handleDeleteEmployee} // Функция для удаления сотрудника
+          onToggleBonus={toggleBonus} // Функция для переключения бонуса
+        />
 
-      {/* Форма для добавления нового сотрудника */}
-      <EmployeeForm onAddEmployee={handleAddEmployee} />
+        {/* Форма для добавления нового сотрудника */}
+        <EmployeeForm onAddEmployee={handleAddEmployee} />
+      </div>
     </div>
   );
 }

@@ -20,7 +20,7 @@ const EmployeeForm = ({ onAddEmployee }) => {
     <form className="employee-form" onSubmit={handleSubmit}>
       <input
         type="text"
-        placeholder="Employee Name"
+        placeholder="Name"
         value={name}
         onChange={(e) => setName(e.target.value)}
         className="employee-input"
